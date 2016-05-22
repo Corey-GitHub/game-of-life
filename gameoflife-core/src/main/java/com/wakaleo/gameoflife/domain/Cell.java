@@ -1,5 +1,5 @@
 package com.wakaleo.gameoflife.domain;
-//Test is my new test
+//Test is my latest test
 
 public enum Cell {
     LIVE_CELL("+"), DEAD_CELL(".");
