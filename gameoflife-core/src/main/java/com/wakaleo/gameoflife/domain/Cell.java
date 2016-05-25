@@ -2,7 +2,7 @@ package com.wakaleo.gameoflife.domain;
 //Test is my latest test
 
 public enum Cell {
-    LIVE_CELL("+"), DEAD_CELL(".");
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
