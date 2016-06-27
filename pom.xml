@@ -87,7 +87,7 @@
                             <goal>prepare-agent</goal>
                         </goals>
         <configuration>
-          <destFile>/target/jacoco-unit.exec</destFile>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
         </configuration>
                     </execution>
                     <execution>
@@ -97,7 +97,7 @@
                             <goal>report</goal>
                         </goals>
         <configuration>
-          <destFile>/target/jacoco-unit.exec</destFile>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
         </configuration>
                     </execution>
                 </executions>
@@ -315,6 +315,9 @@
                                     <artifactId>jacoco-maven-plugin</artifactId>
                                     <version>0.7.2.201409121644</version>
                                 </plugin>
+<configuration>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
+        </configuration>
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-checkstyle-plugin</artifactId>
