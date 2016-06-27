@@ -87,8 +87,8 @@
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
-        <configuration>
-          <destFile>/target/execFiles/jacoco.exec</destFile>
+<configuration>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
         </configuration>
                     </execution>
                     <execution>
@@ -97,8 +97,8 @@
                         <goals>
                             <goal>report</goal>
                         </goals>
-        <configuration>
-          <destFile>/target/execFiles/jacoco.exec</destFile>
+<configuration>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
         </configuration>
                     </execution>
                 </executions>
@@ -317,7 +317,7 @@
                                     <version>0.7.2.201409121644</version>
                                 </plugin>
 <configuration>
-          <destFile>/target/execFiles/jacoco.exec</destFile>
+          <destFile>target/execFiles/jacoco-unit.exec</destFile>
         </configuration>
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
