@@ -36,12 +36,12 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-    <plugins>
+    
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>org.eclipse.jetty</artifactId>
       </plugin>
-    </plugins>
+    
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.11</version>
